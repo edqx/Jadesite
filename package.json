@@ -27,5 +27,6 @@
 	"type": "module",
 	"dependencies": {
 		"vite-plugin-windicss": "^1.8.8"
-	}
+	},
+	"packageManager": "yarn@3.3.0"
 }
