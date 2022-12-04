@@ -28,6 +28,10 @@
     let windowInnerHeight: number;
 </script>
 
+<svelte:head>
+    <title>Jade</title>
+</svelte:head>
+
 <svelte:window bind:innerHeight={windowInnerHeight}></svelte:window>
 
 <div class="font-sans bg-zinc-900 text-zinc-300">
@@ -42,7 +46,7 @@
             <span class="text-2xl text-zinc-800">Graphic Designer</span>
         </div>
         <div class="text-zinc-500">
-            jade@midlight.studio
+            <a href="mailto:jade@midlight.studio">jade@midlight.studio</a>
         </div>
     </div>
 </div>
@@ -57,9 +61,10 @@
             <a href="/" class="text-2xl sm:border-r-1 sm:border-r-zinc-700 px-16 py-2" class:text-zinc-500={$page.route.id !== "/"}>Personal</a>
             <a href="/college" class="text-2xl sm:border-l-1 sm:border-transparent px-16 py-2" class:text-zinc-500={$page.route.id !== "/college"}>College</a>
         </div>
-        <span class="text-2xl text-zinc-500" style="opacity:{1 - (scrollTop / 200)}" class:hidden={scrollTop > 200}><DownArrow size={32}/></span>
+        <span class="ml-1 text-zinc-500" style="opacity: {1 - (scrollTop / 200)}"  class:hidden={scrollTop > 200}><DownArrow size={32}/></span>
     </div>
 </div>
 <div class="bg-zinc-900 text-zinc-300">
+    <div class="h-16" class:hidden={scrollTop <= 200}></div>
     <slot/>
 </div>

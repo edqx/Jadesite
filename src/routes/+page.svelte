@@ -16,9 +16,13 @@
 
     let lastSectionInView: HTMLDivElement|undefined;
     function onScroll() {
-        lastSectionInView = reverseArray(projectSectionElements).find(section => {
+        let sectionInView = reverseArray(projectSectionElements).find(section => {
             return section.getBoundingClientRect().top < windowInnerHeight;
         });
+
+        if (sectionInView !== lastSectionInView) {
+            lastSectionInView = sectionInView;
+        }
     }
 
     onMount(() => {
@@ -30,8 +34,12 @@
         if (typeof document !== "undefined") document.removeEventListener("scroll", onScroll);
     });
 
-    $: if (browser) goto(lastSectionInView ? "#" + lastSectionInView.id : "#", { replaceState: true, noScroll: true });
+    $: browser && goto(lastSectionInView ? "#" + lastSectionInView.id : "#", { replaceState: true, noScroll: true });
 </script>
+
+<svelte:head>
+    <title>Personal | Jade</title>
+</svelte:head>
 
 <svelte:window bind:innerHeight={windowInnerHeight}></svelte:window>
 
