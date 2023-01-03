@@ -17,7 +17,7 @@
     let lastSectionInView: HTMLDivElement|undefined;
     function onScroll() {
         let sectionInView = reverseArray(projectSectionElements).find(section => {
-            return section.getBoundingClientRect().top < windowInnerHeight;
+            return section.getBoundingClientRect().top < windowInnerHeight / 2;
         });
 
         if (sectionInView !== lastSectionInView) {
@@ -44,7 +44,8 @@
 <svelte:window bind:innerHeight={windowInnerHeight}></svelte:window>
 
 <div class="w-full flex flex-col items-center pt-32">
-    <div class="flex flex-col w-[58rem]" id="edith" bind:this={projectSectionElements[0]}>
+    <div class="relative flex flex-col w-[58rem]">
+        <div class="absolute -top-32" id="edith" bind:this={projectSectionElements[0]}></div>
         <span class="text-4xl">Edith</span>
         <p>
             Is this a dagger which I see before me,<br>
@@ -78,7 +79,8 @@
             Words to the heat of deeds too cold breath gives.
         </p>
     </div>
-    <div class="flex flex-col w-[58rem] mt-14" id="miss-you-on-the-train" bind:this={projectSectionElements[1]}>
+    <div class="relative flex flex-col w-[58rem] mt-14">
+        <div class="absolute -top-32" id="miss-you-on-the-train" bind:this={projectSectionElements[1]}></div>
         <span class="text-4xl">I miss you on the train</span>
         <p>
             When I consider everything that grows<br>
@@ -94,10 +96,13 @@
             Where wasteful Time debateth with Decay<br>
             To change your day of youth to sullied night;<br>
             And all in war with Time for love of you,<br>
-            As he takes from you, I engraft you new.
+            As he takes from you, I engraft you new.<br><br>
+            Filler text<br>
+            lol!
         </p>
     </div>
-    <div class="flex flex-col w-[58rem] mt-14" id="chicago" bind:this={projectSectionElements[2]}>
+    <div class="relative flex flex-col w-[58rem] mt-14">
+        <div class="absolute -top-32" id="chicago" bind:this={projectSectionElements[2]}></div>
         <span class="text-4xl">Chicago</span>
         <p>
             To be, or not to be: that is the question:<br>

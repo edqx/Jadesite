@@ -52,7 +52,7 @@
 </div>
 <div class="h-screen bg-zinc-900"></div>
 <div
-    class="sticky top-0 w-full flex justify-center items-center -mt-48 text-zinc-300 border-zinc-700" 
+    class="z-1 sticky top-0 w-full flex justify-center items-center -mt-48 text-zinc-300 border-zinc-700" 
     class:border-b-1={scrollTop > windowInnerHeight - 128}
     class:bg-zinc-900={scrollTop > windowInnerHeight - 128}
 >
