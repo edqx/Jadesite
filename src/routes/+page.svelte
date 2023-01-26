@@ -47,10 +47,10 @@
 <svelte:window bind:innerHeight={windowInnerHeight}></svelte:window>
 
 <div class="w-full flex flex-col items-center pt-32">
-    <div class="ml-38 relative flex flex-col">
+    <div class="lg:ml-38 relative flex flex-col">
         <div class="absolute -top-32" id="edith" bind:this={projectSectionElements[0]}></div>
-        <div class="flex gap-16">
-            <div class="w-[30rem]">
+        <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
+            <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Edith</span>
                 <p>
                     Edith Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet dui. Sed posuere ex vel augue ornare, non euismod ipsum imperdiet. Maecenas quis felis tempor, fringilla elit sed, eleifend mi. Vivamus quis efficitur nulla. Donec ac molestie lorem, imperdiet interdum ipsum. Nulla vestibulum arcu ut accumsan mattis. Phasellus tristique risus quis augue convallis porttitor. Fusce consectetur non libero et semper. Sed sagittis consectetur orci sed finibus. Suspendisse a interdum risus. Sed aliquam tellus vitae interdum rutrum. Aenean sodales arcu metus, vitae dictum ipsum bibendum vitae. Nulla vel velit laoreet, ultrices justo at, suscipit est. Aliquam volutpat semper lacinia.
@@ -58,7 +58,7 @@
                     Etiam mattis leo lacus. Aliquam eget felis ac felis dapibus pharetra. Suspendisse potenti. Cras ultrices diam ut ante convallis placerat sit amet ut tortor. Nulla hendrerit leo eu lectus aliquet venenatis. Phasellus nulla tellus, sagittis vel lobortis eu, egestas et elit. Curabitur pulvinar nisl dui, a interdum lorem placerat sed. Vestibulum sed tincidunt sem. Sed sem arcu, pretium at rutrum sit amet, finibus sit amet lorem. Etiam blandit lobortis nisl. Phasellus purus odio, rhoncus quis nisi a, vulputate egestas est. Proin ornare purus ac accumsan ultricies. Phasellus et cursus risus, sed posuere turpis. 
                 </p>
             </div>
-            <div class="w-[42rem]">
+            <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
                 <Grid cols={5} rows={12}>
                     <Cell col={1} row={1} colSpan={4} rowSpan={3}>
                         <ViewableImage alt="OC character Cluo leaning" src="cluolean.png">
@@ -99,10 +99,10 @@
             </div>
         </div>
     </div>
-    <div class="ml-38 relative flex flex-col">
+    <div class="lg:ml-38 mb-38 relative flex flex-col">
         <div class="absolute -top-32" id="animation" bind:this={projectSectionElements[1]}></div>
-        <div class="flex gap-16">
-            <div class="w-[30rem]">
+        <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
+            <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Animation</span>
                 <p>
                     Edith Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet dui. Sed posuere ex vel augue ornare, non euismod ipsum imperdiet. Maecenas quis felis tempor, fringilla elit sed, eleifend mi. Vivamus quis efficitur nulla. Donec ac molestie lorem, imperdiet interdum ipsum. Nulla vestibulum arcu ut accumsan mattis. Phasellus tristique risus quis augue convallis porttitor. Fusce consectetur non libero et semper. Sed sagittis consectetur orci sed finibus. Suspendisse a interdum risus. Sed aliquam tellus vitae interdum rutrum. Aenean sodales arcu metus, vitae dictum ipsum bibendum vitae. Nulla vel velit laoreet, ultrices justo at, suscipit est. Aliquam volutpat semper lacinia.
@@ -110,7 +110,7 @@
                     Etiam mattis leo lacus. Aliquam eget felis ac felis dapibus pharetra. Suspendisse potenti. Cras ultrices diam ut ante convallis placerat sit amet ut tortor. Nulla hendrerit leo eu lectus aliquet venenatis. Phasellus nulla tellus, sagittis vel lobortis eu, egestas et elit. Curabitur pulvinar nisl dui, a interdum lorem placerat sed. Vestibulum sed tincidunt sem. Sed sem arcu, pretium at rutrum sit amet, finibus sit amet lorem. Etiam blandit lobortis nisl. Phasellus purus odio, rhoncus quis nisi a, vulputate egestas est. Proin ornare purus ac accumsan ultricies. Phasellus et cursus risus, sed posuere turpis. 
                 </p>
             </div>
-            <div class="w-[42rem]">
+            <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
                 <Grid cols={5} rows={2}>
                     <img width={128} alt="pixel art animation showing OC character Cluo attacking" class="image-render-pixel" src="/characters/cluo/cluo_attack_sheet.png.gif">
                     <img width={128} alt="pixel art animation showing OC character Cluo breathing" class="image-render-pixel" src="/characters/cluo/cluo_breathe_sheet.png.gif">
@@ -136,46 +136,5 @@
                 </Grid>
             </div>
         </div>
-    </div>
-    <div class="relative flex flex-col w-[58rem] mt-14">
-        <div class="absolute -top-32" id="chicago" bind:this={projectSectionElements[2]}></div>
-        <span class="text-4xl">Chicago</span>
-        <p>
-            To be, or not to be: that is the question:<br>
-            Whether 'tis nobler in the mind to suffer<br>
-            The slings and arrows of outrageous fortune,<br>
-            Or to take arms against a sea of troubles,<br>
-            And by opposing end them? To die: to sleep;<br>
-            No more; and by a sleep to say we end<br>
-            The heart-ache and the thousand natural shocks<br>
-            That flesh is heir to, 'tis a consummation<br>
-            Devoutly to be wish'd. To die, to sleep;<br>
-            To sleep: perchance to dream: ay, there's the rub;<br>
-            For in that sleep of death what dreams may come<br>
-            When we have shuffled off this mortal coil,<br>
-            Must give us pause: there's the respect<br>
-            That makes calamity of so long life;<br>
-            For who would bear the whips and scorns of time,<br>
-            The oppressor's wrong, the proud man's contumely,<br>
-            The pangs of despised love, the law's delay,<br>
-            The insolence of office and the spurns<br>
-            That patient merit of the unworthy takes,<br>
-            When he himself might his quietus make<br>
-            With a bare bodkin? who would fardels bear,<br>
-            To grunt and sweat under a weary life,<br>
-            But that the dread of something after death,<br>
-            The undiscover'd country from whose bourn<br>
-            No traveller returns, puzzles the will<br>
-            And makes us rather bear those ills we have<br>
-            Than fly to others that we know not of?<br>
-            Thus conscience does make cowards of us all;<br>
-            And thus the native hue of resolution<br>
-            Is sicklied o'er with the pale cast of thought,<br>
-            And enterprises of great pith and moment<br>
-            With this regard their currents turn awry,<br>
-            And lose the name of action.-Soft you now!<br>
-            The fair Ophelia! Nymph, in thy orisons<br>
-            Be all my sins remember'd.'
-        </p>
     </div>
 </div>
