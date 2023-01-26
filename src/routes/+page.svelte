@@ -2,11 +2,9 @@
     import { onDestroy, onMount } from "svelte";
     import { goto } from "$app/navigation";
     import { browser } from "$app/environment";
-    import Masonry from "svelte-masonry/Masonry.svelte";
     import ViewableImage from "./ViewableImage.svelte";
-  import Collage from "./Collage.svelte";
-  import Grid from "./Grid.svelte";
-  import Cell from "./Cell.svelte";
+    import Grid from "./Grid.svelte";
+    import Cell from "./Cell.svelte";
 
     let projectSectionElements: HTMLDivElement[] = [];
     let windowInnerHeight: number;
