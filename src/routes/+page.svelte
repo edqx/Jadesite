@@ -2,6 +2,11 @@
     import { onDestroy, onMount } from "svelte";
     import { goto } from "$app/navigation";
     import { browser } from "$app/environment";
+    import Masonry from "svelte-masonry/Masonry.svelte";
+    import ViewableImage from "./ViewableImage.svelte";
+  import Collage from "./Collage.svelte";
+  import Grid from "./Grid.svelte";
+  import Cell from "./Cell.svelte";
 
     let projectSectionElements: HTMLDivElement[] = [];
     let windowInnerHeight: number;
@@ -44,62 +49,95 @@
 <svelte:window bind:innerHeight={windowInnerHeight}></svelte:window>
 
 <div class="w-full flex flex-col items-center pt-32">
-    <div class="relative flex flex-col w-[58rem]">
+    <div class="ml-38 relative flex flex-col">
         <div class="absolute -top-32" id="edith" bind:this={projectSectionElements[0]}></div>
-        <span class="text-4xl">Edith</span>
-        <p>
-            Is this a dagger which I see before me,<br>
-            The handle toward my hand? Come, let me clutch thee.<br>
-            I have thee not, and yet I see thee still.<br>
-            Art thou not, fatal vision, sensible<br>
-            To feeling as to sight? or art thou but<br>
-            A dagger of the mind, a false creation,<br>
-            Proceeding from the heat-oppressed brain?<br>
-            I see thee yet, in form as palpable<br>
-            As this which now I draw.<br>
-            Thou marshall'st me the way that I was going;<br>
-            And such an instrument I was to use.<br>
-            Mine eyes are made the fools o' the other senses,<br>
-            Or else worth all the rest; I see thee still,<br>
-            And on thy blade and dudgeon gouts of blood,<br>
-            Which was not so before. There's no such thing:<br>
-            It is the bloody business which informs<br>
-            Thus to mine eyes. Now o'er the one halfworld<br>
-            Nature seems dead, and wicked dreams abuse<br>
-            The curtain'd sleep; witchcraft celebrates<br>
-            Pale Hecate's offerings, and wither'd murder,<br>
-            Alarum'd by his sentinel, the wolf,<br>
-            Whose howl's his watch, thus with his stealthy pace.<br>
-            With Tarquin's ravishing strides, towards his design<br>
-            Moves like a ghost. Thou sure and firm-set earth,<br>
-            Hear not my steps, which way they walk, for fear<br>
-            Thy very stones prate of my whereabout,<br>
-            And take the present horror from the time,<br>
-            Which now suits with it. Whiles I threat, he lives:<br>
-            Words to the heat of deeds too cold breath gives.
-        </p>
+        <div class="flex gap-16">
+            <div class="w-[30rem]">
+                <span class="text-4xl">Edith</span>
+                <p>
+                    Edith Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet dui. Sed posuere ex vel augue ornare, non euismod ipsum imperdiet. Maecenas quis felis tempor, fringilla elit sed, eleifend mi. Vivamus quis efficitur nulla. Donec ac molestie lorem, imperdiet interdum ipsum. Nulla vestibulum arcu ut accumsan mattis. Phasellus tristique risus quis augue convallis porttitor. Fusce consectetur non libero et semper. Sed sagittis consectetur orci sed finibus. Suspendisse a interdum risus. Sed aliquam tellus vitae interdum rutrum. Aenean sodales arcu metus, vitae dictum ipsum bibendum vitae. Nulla vel velit laoreet, ultrices justo at, suscipit est. Aliquam volutpat semper lacinia.
+
+                    Etiam mattis leo lacus. Aliquam eget felis ac felis dapibus pharetra. Suspendisse potenti. Cras ultrices diam ut ante convallis placerat sit amet ut tortor. Nulla hendrerit leo eu lectus aliquet venenatis. Phasellus nulla tellus, sagittis vel lobortis eu, egestas et elit. Curabitur pulvinar nisl dui, a interdum lorem placerat sed. Vestibulum sed tincidunt sem. Sed sem arcu, pretium at rutrum sit amet, finibus sit amet lorem. Etiam blandit lobortis nisl. Phasellus purus odio, rhoncus quis nisi a, vulputate egestas est. Proin ornare purus ac accumsan ultricies. Phasellus et cursus risus, sed posuere turpis. 
+                </p>
+            </div>
+            <div class="w-[42rem]">
+                <Grid cols={5} rows={12}>
+                    <Cell col={1} row={1} colSpan={4} rowSpan={3}>
+                        <ViewableImage alt="OC character Cluo leaning" src="cluolean.png">
+                            Cluo is my baby, as you can see from this image
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={5} row={1} colSpan={1} rowSpan={3}>
+                        <div class="mt-auto">
+                            <ViewableImage alt="OC character Macula in both male and female versions" src="macula.png">
+                                Macula is a little itty bitty spider who climbed up the water spout
+                            </ViewableImage>
+                        </div>
+                    </Cell>
+                    <Cell col={3} row={4} colSpan={3} rowSpan={5}>
+                        <ViewableImage alt="Draft art showing various emotions for OC character Cluo" src="cluoemotions.png">
+                            Bipolar Cluo designs
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={1} row={4} colSpan={2} rowSpan={6}>
+                        <div class="flex flex-col gap-2">
+                            <ViewableImage alt="OC character Cluo in various poses and stages" src="cluopipleine.png">
+                                I wanna know, have you ever seen the rain
+                            </ViewableImage>
+                            <ViewableImage alt="Draft art for video game end scene" src="gameover.png">
+                                A dreaded sunny day
+                            </ViewableImage>
+                            <ViewableImage alt="OC character Iris in various styles" src="iris.png">
+                                Some description
+                            </ViewableImage>
+                        </div>
+                    </Cell>
+                    <Cell col={3} row={7} colSpan={3} rowSpan={3}>
+                        <ViewableImage alt="OC character camina" src="camina.png">
+                            Camina progressing through the human evolutionary process
+                        </ViewableImage>
+                    </Cell>
+                </Grid>
+            </div>
+        </div>
     </div>
-    <div class="relative flex flex-col w-[58rem] mt-14">
-        <div class="absolute -top-32" id="miss-you-on-the-train" bind:this={projectSectionElements[1]}></div>
-        <span class="text-4xl">I miss you on the train</span>
-        <p>
-            When I consider everything that grows<br>
-            Holds in perfection but a little moment,<br>
-            That this huge stage presenteth nought but shows<br>
-            Whereon the stars in secret influence comment;<br>
-            When I perceive that men as plants increase,<br>
-            Cheered and check'd even by the selfsame sky,<br>
-            Vaunt in their youthful sap, at height decrease,<br>
-            And wear their brave state out of memory;<br>
-            Then the conceit of this inconstant stay<br>
-            Sets you most rich in youth before my sight,<br>
-            Where wasteful Time debateth with Decay<br>
-            To change your day of youth to sullied night;<br>
-            And all in war with Time for love of you,<br>
-            As he takes from you, I engraft you new.<br><br>
-            Filler text<br>
-            lol!
-        </p>
+    <div class="ml-38 relative flex flex-col">
+        <div class="absolute -top-32" id="animation" bind:this={projectSectionElements[1]}></div>
+        <div class="flex gap-16">
+            <div class="w-[30rem]">
+                <span class="text-4xl">Animation</span>
+                <p>
+                    Edith Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet dui. Sed posuere ex vel augue ornare, non euismod ipsum imperdiet. Maecenas quis felis tempor, fringilla elit sed, eleifend mi. Vivamus quis efficitur nulla. Donec ac molestie lorem, imperdiet interdum ipsum. Nulla vestibulum arcu ut accumsan mattis. Phasellus tristique risus quis augue convallis porttitor. Fusce consectetur non libero et semper. Sed sagittis consectetur orci sed finibus. Suspendisse a interdum risus. Sed aliquam tellus vitae interdum rutrum. Aenean sodales arcu metus, vitae dictum ipsum bibendum vitae. Nulla vel velit laoreet, ultrices justo at, suscipit est. Aliquam volutpat semper lacinia.
+
+                    Etiam mattis leo lacus. Aliquam eget felis ac felis dapibus pharetra. Suspendisse potenti. Cras ultrices diam ut ante convallis placerat sit amet ut tortor. Nulla hendrerit leo eu lectus aliquet venenatis. Phasellus nulla tellus, sagittis vel lobortis eu, egestas et elit. Curabitur pulvinar nisl dui, a interdum lorem placerat sed. Vestibulum sed tincidunt sem. Sed sem arcu, pretium at rutrum sit amet, finibus sit amet lorem. Etiam blandit lobortis nisl. Phasellus purus odio, rhoncus quis nisi a, vulputate egestas est. Proin ornare purus ac accumsan ultricies. Phasellus et cursus risus, sed posuere turpis. 
+                </p>
+            </div>
+            <div class="w-[42rem]">
+                <Grid cols={5} rows={2}>
+                    <img width={128} alt="pixel art animation showing OC character Cluo attacking" class="image-render-pixel" src="/characters/cluo/cluo_attack_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo breathing" class="image-render-pixel" src="/characters/cluo/cluo_breathe_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo crouching" class="image-render-pixel" src="/characters/cluo/cluo_crouch_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo falling" class="image-render-pixel" src="/characters/cluo/cluo_fall_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo using her frenzy attack" class="image-render-pixel" src="/characters/cluo/cluo_frenzy_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo getting hurt" class="image-render-pixel" src="/characters/cluo/cluo_hurt_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo spinning her knife idly" class="image-render-pixel" src="/characters/cluo/cluo_idle_spin_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Cluo jumping" class="image-render-pixel" src="/characters/cluo/cluo_jump_sheet.png.gif">
+                </Grid>
+                <Grid cols={5} rows={1}>
+                    <img width={128} alt="pixel art animation showing OC character Jen attacking" class="image-render-pixel" src="/characters/jen/jen_attack_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Jen breathing" class="image-render-pixel" src="/characters/jen/jen_breathe_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Jen crouching" class="image-render-pixel" src="/characters/jen/jen_crouch_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Jen healing" class="image-render-pixel" src="/characters/jen/jen_heal_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Jen getting hurt" class="image-render-pixel" src="/characters/jen/jen_hurt_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/characters/jen/jen_jump_sheet.png.gif">
+                </Grid>
+                <Grid cols={5} rows={1}>
+                    <img width={128} alt="pixel art animation showing OC character Hevel's dust cloud" class="image-render-pixel" src="/characters/hevel/hevel_dust_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Hevel melting" class="image-render-pixel" src="/characters/hevel/hevel_melt_sheet.png.gif">
+                    <img width={128} alt="pixel art animation showing OC character Hevel's spike attack" class="image-render-pixel" src="/characters/hevel/hevel_spike_sheet.png.gif">
+                </Grid>
+            </div>
+        </div>
     </div>
     <div class="relative flex flex-col w-[58rem] mt-14">
         <div class="absolute -top-32" id="chicago" bind:this={projectSectionElements[2]}></div>

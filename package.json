@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-masonry": "^0.0.18",
 		"vite-plugin-windicss": "^1.8.8"
 	},
 	"packageManager": "yarn@3.3.0"
