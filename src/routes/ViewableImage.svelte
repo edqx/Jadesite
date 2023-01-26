@@ -10,21 +10,11 @@
     let windowWidth = 0;
     let windowHeight = 0;
 
-    let hasLoadedImage = false;
-    function imageFinishLoad() {
-        hasLoadedImage = true;
-
-    }
-
-    $: console.log(hasLoadedImage, smallImageElem)
-
-    $: if (hasLoadedImage && smallImageElem && popupImageElem && windowWidth > 0 && windowHeight > 0) {
+    $: if (smallImageElem && popupImageElem && windowWidth > 0 && windowHeight > 0) {
         const aspectRatio = smallImageElem.width / smallImageElem.height;
 
         const defaultWidth = windowWidth * 0.8;
         const defaultHeight = defaultWidth / aspectRatio;
-
-        console.log(aspectRatio, defaultWidth, defaultHeight);
 
         const maxHeight = windowHeight * 0.8;
         const adjustedWidth = maxHeight * aspectRatio;
@@ -56,7 +46,7 @@
 <svelte:window bind:innerWidth={windowWidth} bind:innerHeight={windowHeight}/>
 
 <div class="flex flex-col gap-4 cursor-pointer" on:click={openPopup} on:keypress={ev => ev.keyCode === 13 && openPopup()}>
-    <img class="w-[38rem]" bind:this={smallImageElem} {src} {alt} on:load={imageFinishLoad}/>
+    <img class="w-[38rem]" bind:this={smallImageElem} {src} {alt}/>
 </div>
 
 <div class="fixed flex left-0 top-0 w-screen h-screen z-50 bg-dark-900/95 flex-col items-center justify-center gap-2 cursor-pointer" class:hidden={!isOpen} on:click={closePopup} on:keypress={closePopup}>
