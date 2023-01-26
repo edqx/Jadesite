@@ -10,13 +10,15 @@
     let windowWidth = 0;
     let windowHeight = 0;
 
+    $: padding = windowWidth < 640 ? 0.95 : 0.8;
+
     $: if (smallImageElem && popupImageElem && windowWidth > 0 && windowHeight > 0) {
         const aspectRatio = smallImageElem.width / smallImageElem.height;
 
-        const defaultWidth = windowWidth * 0.8;
+        const defaultWidth = windowWidth * padding;
         const defaultHeight = defaultWidth / aspectRatio;
 
-        const maxHeight = windowHeight * 0.8;
+        const maxHeight = windowHeight * padding;
         const adjustedWidth = maxHeight * aspectRatio;
         if (defaultHeight > maxHeight) {
             popupImageElem.style.width = adjustedWidth + "px";
@@ -52,7 +54,7 @@
 <div class="fixed flex left-0 top-0 w-screen h-screen z-50 bg-dark-900/95 flex-col items-center justify-center gap-2 cursor-pointer" class:hidden={!isOpen} on:click={closePopup} on:keypress={closePopup}>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <img class="cursor-default" bind:this={popupImageElem} {src} {alt} on:click={ev => ev.stopPropagation()}/>
-    <div class="text-xl italic">
+    <div class="text-xl italic m-4 sm:m-0">
         <slot/>
     </div>
 </div>

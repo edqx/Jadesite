@@ -134,6 +134,10 @@
                     <img width={128} alt="pixel art animation showing OC character Hevel melting" class="image-render-pixel" src="/characters/hevel/hevel_melt_sheet.png.gif">
                     <img width={128} alt="pixel art animation showing OC character Hevel's spike attack" class="image-render-pixel" src="/characters/hevel/hevel_spike_sheet.png.gif">
                 </Grid>
+                <div class="mt-4">
+                    <ViewableImage src="/edithdemoexample.gif" alt="Demo of game showing animations in action">
+                    </ViewableImage>
+                </div>
             </div>
         </div>
     </div>
