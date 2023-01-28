@@ -35,7 +35,7 @@
 
 <svelte:window bind:innerWidth={windowInnerWidth} bind:innerHeight={windowInnerHeight}></svelte:window>
 
-<div class="bg-zinc-900 h-screen sm:bg-transparent">
+<div class="bg-zinc-900 h-screen lg:bg-transparent">
     <div class="font-sans bg-zinc-900 text-zinc-300">
         <div class="lg:my-42 pt-38 mx-16 flex flex-col gap-6 flex-1 items-center lg:items-start lg:fixed">
             <div class="flex items-end gap-2">
