@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="lg:ml-38 mb-38 relative flex flex-col">
-        <div class="absolute -top-32" id="advertisign" bind:this={projectSectionElements[1]}></div>
+        <div class="absolute -top-32" id="advertising" bind:this={projectSectionElements[1]}></div>
         <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Advertising Project</span>
