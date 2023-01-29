@@ -37,8 +37,14 @@
 
     $: browser && goto(lastSectionInView ? "#" + lastSectionInView.id : "#", { replaceState: true, noScroll: true });
 
-    $: videoWidth = windowInnerWidth >= 1536 ? 714 : windowInnerWidth >= 640 ? 476 : 340;
-    $: videoHeight = videoWidth / (16 / 9);
+    let postersContainerElem: HTMLDivElement|undefined = undefined;
+    let videoWidth = 0;
+    let videoHeight = 0;
+
+    $: if (windowInnerWidth && postersContainerElem) {
+        videoWidth = postersContainerElem.getBoundingClientRect().width;
+        videoHeight = videoWidth / (16 / 9);
+    }
 </script>
 
 <svelte:head>
@@ -79,7 +85,7 @@
                 </p>
             </div>
             <div class="flex flex-col gap-2 2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
-                <div class="grid gap-1 grid-cols-3">
+                <div class="grid gap-1 grid-cols-3" bind:this={postersContainerElem}>
                     <img src="/alien-boy.png"/>
                     <img src="/twcftw.png"/>
                     <img src="/utopia.png"/>    
