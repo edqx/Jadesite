@@ -2,6 +2,7 @@
     import { onDestroy, onMount } from "svelte";
     import { goto } from "$app/navigation";
     import { browser } from "$app/environment";
+    import ViewableImage from "../ViewableImage.svelte";
 
     let projectSectionElements: HTMLDivElement[] = [];
     let windowInnerWidth: number;
@@ -86,9 +87,15 @@
             </div>
             <div class="flex flex-col gap-2 2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
                 <div class="grid gap-1 grid-cols-3" bind:this={postersContainerElem}>
-                    <img src="/alien-boy.png"/>
-                    <img src="/twcftw.png"/>
-                    <img src="/utopia.png"/>    
+                    <ViewableImage src="/alien-boy.png" alt="Poster for artist Oliver Tree's song 'Alien Boy'">
+                    
+                    </ViewableImage>
+                    <ViewableImage src="/twcftw.png" alt="Poster for video game 'Tomorrow Won't Come for Those Without'">
+                    
+                    </ViewableImage>
+                    <ViewableImage src="/utopia.png" alt="Poster for UK television show 'Utopia'">
+                    
+                    </ViewableImage>  
                 </div>
                 <div>
                     <iframe width={videoWidth} height={videoHeight} src="https://www.youtube.com/embed/ehBbexwnfn8"></iframe>
