@@ -101,7 +101,7 @@
         <div class="absolute -top-32" id="animation" bind:this={projectSectionElements[1]}></div>
         <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
-                <span class="text-4xl">Edith - Sprite Animation Examples</span>
+                <span class="text-4xl">Edith - Spritework Examples</span>
                 <p>
                      To the right are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these aniamtions should be seen below the screen recording.
                 </p>
