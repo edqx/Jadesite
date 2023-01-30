@@ -53,7 +53,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Edith - Concept Art Examples</span>
                 <p>
-                    To the right are just a few samples of concept art drawn for characters in a project going by the name "Edith". Edith is a passion project started by myself and a very close friend of mine and is currently one year into development, with it's demo a very early work in progress. Inspired by OMOCAT's "OMORI", Edith is a top-down RPG loveletter to the aformentioned title, with my primary role in its creation being art direction for both final pieces along with concept artwork and designs (with a secondary but still large focus on story and character develoments). The images to the right are clickable, and should display a small and relevant caption. The date at which each piece of concept art was made is written in red pen to give an idea as to which are early works wnd which are more recent.
+                    To the right are just a few samples of concept art drawn for characters in a project going by the name "Edith". Edith is a passion project started by myself and a very close friend of mine and is currently one year into development, with it's demo a very early work in progress. Inspired by OMOCAT's "OMORI", Edith is a top-down RPG loveletter to the aformentioned title, with my primary role in its creation being art direction for both final pieces along with concept artwork and designs (with a secondary but still large focus on story and character development). The images to the right are clickable, and should display a small and relevant caption. The date at which each piece of concept art was made is written in red pen to give an idea as to which are early works wnd which are more recent.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -81,7 +81,7 @@
                                 A page showing some progression of how I choose to draw Edith's concept art, along with some processes of how I take an older design and modernise them with my updated drawing style.
                             </ViewableImage>
                             <ViewableImage alt="Draft art for video game end scene" src="gameover.png">
-                                Unfinished concept art for the pose taken by Cluo during a proposed "Game Over" screen. The intention would be that her hand be hovering over an analgoue clock, though I'm still yet to finish this.
+                                Unfinished concept art for the pose taken by Cluo during a proposed "Game Over" screen. The intention would be that her hand be hovering over an analogue clock, though I'm still yet to finish this.
                             </ViewableImage>
                             <ViewableImage alt="OC character Iris in various styles" src="iris.png">
                                 The difference in only a few months work in designing one of Edith's bosses, "Iris". After a new idea for her design along with some new skills, this is probably one of my best modernisations of older artwork.
@@ -103,7 +103,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Edith - Spritework Examples</span>
                 <p>
-                     To the right are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these aniamtions should be seen below the screen recording.
+                     To the right are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, however once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these animations should be seen below the screen recording.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -124,11 +124,6 @@
                     <img width={128} alt="pixel art animation showing OC character Jen healing" class="image-render-pixel" src="/characters/jen/jen_heal_sheet.png.gif">
                     <img width={128} alt="pixel art animation showing OC character Jen getting hurt" class="image-render-pixel" src="/characters/jen/jen_hurt_sheet.png.gif">
                     <img width={128} alt="pixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/characters/jen/jen_jump_sheet.png.gif">
-                </Grid>
-                <Grid cols={5} rows={1}>
-                    <img width={128} alt="pixel art animation showing OC character Hevel's dust cloud" class="image-render-pixel" src="/characters/hevel/hevel_dust_sheet.png.gif">
-                    <img width={128} alt="pixel art animation showing OC character Hevel melting" class="image-render-pixel" src="/characters/hevel/hevel_melt_sheet.png.gif">
-                    <img width={128} alt="pixel art animation showing OC character Hevel's spike attack" class="image-render-pixel" src="/characters/hevel/hevel_spike_sheet.png.gif">
                 </Grid>
                 <div class="mt-4">
                     <ViewableImage src="/edithdemoexample.gif" alt="Demo of game showing animations in action">
