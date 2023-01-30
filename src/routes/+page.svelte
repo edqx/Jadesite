@@ -53,7 +53,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Edith - Concept Art Examples</span>
                 <p>
-                    To the right are just a few samples of concept art drawn for characters in a project going by the name "Edith". Edith is a passion project started by myself and a very close friend of mine and is currently one year into development, with it's demo a very early work in progress. Inspired by OMOCAT's "OMORI", Edith is a top-down RPG loveletter to the aformentioned title, with my primary role in its creation being art direction for both final pieces along with concept artwork and designs (with a secondary but still large focus on story and character development). The images to the right are clickable, and should display a small and relevant caption. The date at which each piece of concept art was made is written in red pen to give an idea as to which are early works wnd which are more recent.
+                    To the right are just a few samples of concept art drawn for characters in a project going by the name "Edith". Edith is a passion project started by myself and a very close friend of mine and is currently one year into development, with it's demo a very early work in progress. Inspired by OMOCAT's "OMORI", Edith is a top-down RPG loveletter to the aformentioned title, with my primary role in its creation being art direction for both final pieces along with concept artwork and designs (with a secondary but still large focus on story and character development). The images to the right are clickable, and should display a small and relevant caption. The date at which each piece of concept art was made is written in red pen to give an idea as to which are early works and which are more recent.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -126,9 +126,115 @@
                     <img width={128} alt="pixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/characters/jen/jen_jump_sheet.png.gif">
                 </Grid>
                 <div class="mt-4">
+                    <ViewableImage src="/old_animations/edithdemoexaxmpleold.gif" alt="Demo of game showing animations in action">
+                    </ViewableImage>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lg:ml-38 mb-38 relative flex flex-col">
+        <div class="absolute -top-32" id="animation" bind:this={projectSectionElements[1]}></div>
+        <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
+            <div class="mx-8 sm:mx-0 sm:w-[30rem]">
+                <span class="text-4xl">(OLD) Edith - Spritework Examples</span>
+                <p>
+                     To the right are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, however once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these animations should be seen below the screen recording.
+                </p>
+            </div>
+            <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
+                <Grid cols={5} rows={2}>
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Cluo attacking" class="image-render-pixel" src="/old_animations/cluo_attack_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Cluo crouching" class="image-render-pixel" src="/old_animations/cluo_crouch_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Cluo using her frenzy attack" class="image-render-pixel" src="/old_animations/cluo_frenzy_full_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Cluo getting hurt" class="image-render-pixel" src="/old_animations/cluo_hurt_old.gif">
+                    <img width={128} alt="a higher-resolutionpixel art animation showing OC character Cluo spinning her knife idly" class="image-render-pixel" src="/old_animations/cluo_idle_old.gif">
+                    <img width={128} alt="a higher-resolutionpixel art animation showing OC character Cluo jumping" class="image-render-pixel" src="/old_animations/cluo_jump_old.gif">
+                </Grid>
+                <Grid cols={5} rows={1} centered={true}>
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Jen attacking" class="image-render-pixel" src="/old_animations/jen_attack_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Jen crouching" class="image-render-pixel" src="/old_animations/jen_crouch_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Jen healing" class="image-render-pixel" src="/old_animations/jen_heal_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Jen getting hurt" class="image-render-pixel" src="/old_animations/jen_hurt_old.gif">
+                    <img width={128} alt="a higher-resolution pixel art animation showing OC character Jen dripping paint from her paint brush idly" class="image-render-pixel" src="/old_animations/jen_idle_old.gif">
+                    <img width={128} alt="a higher-resolutionpixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/old_animations/jen_jump_old.gif">
+                </Grid>
+                <div class="mt-4">
                     <ViewableImage src="/edithdemoexample.gif" alt="Demo of game showing animations in action">
                     </ViewableImage>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="lg:ml-38 relative flex flex-col">
+        <div class="absolute -top-32" id="misc" bind:this={projectSectionElements[2]}></div>
+        <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
+            <div class="mx-8 sm:mx-0 sm:w-[30rem]">
+                <span class="text-4xl">Misc</span>
+                <p>
+                    Edithy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet dui. Sed posuere ex vel augue ornare, non euismod ipsum imperdiet. Maecenas quis felis tempor, fringilla elit sed, eleifend mi. Vivamus quis efficitur nulla. Donec ac molestie lorem, imperdiet interdum ipsum. Nulla vestibulum arcu ut accumsan mattis. Phasellus tristique risus quis augue convallis porttitor. Fusce consectetur non libero et semper. Sed sagittis consectetur orci sed finibus. Suspendisse a interdum risus. Sed aliquam tellus vitae interdum rutrum. Aenean sodales arcu metus, vitae dictum ipsum bibendum vitae. Nulla vel velit laoreet, ultrices justo at, suscipit est. Aliquam volutpat semper lacinia.
+
+                    Etiam mattis leo lacus. Aliquam eget felis ac felis dapibus pharetra. Suspendisse potenti. Cras ultrices diam ut ante convallis placerat sit amet ut tortor. Nulla hendrerit leo eu lectus aliquet venenatis. Phasellus nulla tellus, sagittis vel lobortis eu, egestas et elit. Curabitur pulvinar nisl dui, a interdum lorem placerat sed. Vestibulum sed tincidunt sem. Sed sem arcu, pretium at rutrum sit amet, finibus sit amet lorem. Etiam blandit lobortis nisl. Phasellus purus odio, rhoncus quis nisi a, vulputate egestas est. Proin ornare purus ac accumsan ultricies. Phasellus et cursus risus, sed posuere turpis. 
+                </p>
+            </div>
+            <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
+                <Grid cols={5} rows={30}>
+                    <Cell col={1} row={1} colSpan={1} rowSpan={8}>
+                        <div class="mt-auto">
+                            <ViewableImage alt="A scene showing a reflection between two sides of the character Madeline from Celeste's psyche" src="celeste1.png">
+                                Lorem ipsum
+                            </ViewableImage>
+                        </div>
+                    </Cell>
+                    <Cell col={2} row={1} colSpan={2} rowSpan={8}>
+                        <ViewableImage alt="A scene showing a reflection between two sides of the character Madeline from Celeste's psyche" src="celeste2.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={4} row={1} colSpan={1} rowSpan={8}>
+                        <div class="mt-auto">
+                            <ViewableImage alt="Character Madeline from Celeste battling her alter-ego with a golden feather" src="celeste3.png">
+                                Lorem ipsum
+                            </ViewableImage>
+                        </div>
+                    </Cell>
+                    <Cell col={5} row={1} colSpan={1} rowSpan={8}>
+                        <div class="mt-auto">
+                            <ViewableImage alt="Character Madeline from Celeste battling her alter-ego with a golden feather" src="celeste4.png">
+                                Lorem ipsum
+                            </ViewableImage>
+                        </div>
+                    </Cell>
+                    <Cell col={1} row={9} colSpan={2} rowSpan={8}>
+                        <ViewableImage alt="Character Lapis from Steven Universe dressed like the Batter from OFF" src="lapis2.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={3} row={9} colSpan={3} rowSpan={12}>
+                        <ViewableImage alt="Character Lapis from Steven Universe with what appears to be wings elevating her in the air" src="lapis1.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={1} row={17} colSpan={2} rowSpan={8}>
+                        <ViewableImage alt="Character Paraffin from the Terraria Split Mod" src="paraffin.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={3} row={21} colSpan={2} rowSpan={8}>
+                        <ViewableImage alt="Character Lapis from Steven Universe collecting the rain in her hands as she stands in a puddle with an umbrella protecting her" src="lapis3.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={5} row={21} colSpan={1} rowSpan={4}>
+                        <ViewableImage alt="A collection of a few poses of the Character Lapis from Steven Universe" src="lapisall.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                    <Cell col={1} row={23} colSpan={2} rowSpan={8}>
+                        <ViewableImage alt="Character Perfect Heart from OMORI holding a wine glass in the air" src="perfectheart.png">
+                            Lorem ipsum
+                        </ViewableImage>
+                    </Cell>
+                </Grid>
             </div>
         </div>
     </div>
