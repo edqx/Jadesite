@@ -25,10 +25,6 @@
     let windowInnerHeight: number;
 </script>
 
-<svelte:head>
-    <title>Jade</title>
-</svelte:head>
-
 <svelte:window bind:innerWidth={windowInnerWidth} bind:innerHeight={windowInnerHeight}></svelte:window>
 
 <div class="h-screen lg:bg-transparent" class:bg-zinc-900={dark} class:bg-zinc-100={!dark}>
