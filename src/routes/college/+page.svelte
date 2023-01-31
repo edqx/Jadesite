@@ -67,8 +67,8 @@
                 </p>
             </div>
             <div class="flex flex-col gap-2 2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
-                <img src="/Cover_1_Jay.3.png"/>
-                <img src="/Page_1_Jay.png"/>
+                <img alt="A magazine cover for the Midlight magazine" src="/Cover_1_Jay.3.png"/>
+                <img alt="A magazine headline for the Midlight magazine with text that reads &quot;It's essentially theft&quot;" src="/Page_1_Jay.png"/>
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
             <div class="flex flex-col gap-2 2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
                 <div class="grid gap-1 grid-cols-3" bind:this={postersContainerElem}>
                     <ViewableImage src="/alien-boy.png" alt="Poster for artist Oliver Tree's song 'Alien Boy'">
-                    
+                        
                     </ViewableImage>
                     <ViewableImage src="/twcftw.png" alt="Poster for video game 'Tomorrow Won't Come for Those Without'">
                     
@@ -95,7 +95,7 @@
                     </ViewableImage>  
                 </div>
                 <div>
-                    <iframe width={videoWidth} height={videoHeight} src="https://www.youtube.com/embed/ehBbexwnfn8"></iframe>
+                    <iframe title="Trailer for OMORI" width={videoWidth} height={videoHeight} src="https://www.youtube.com/embed/ehBbexwnfn8"></iframe>
                 </div>
             </div>
         </div>
