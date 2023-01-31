@@ -53,7 +53,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Edith - Concept Art Examples</span>
                 <p>
-                    To the right are just a few samples of concept art drawn for characters in a project going by the name "Edith". Edith is a passion project started by myself and a very close friend of mine and is currently one year into development, with it's demo a very early work in progress. Inspired by OMOCAT's "OMORI", Edith is a top-down RPG loveletter to the aformentioned title, with my primary role in its creation being art direction for both final pieces along with concept artwork and designs (with a secondary but still large focus on story and character development). The images to the right are clickable, and should display a small and relevant caption. The date at which each piece of concept art was made is written in red pen to give an idea as to which are early works and which are more recent.
+                    To the right or below are just a few samples of concept art drawn for characters in a project going by the name "Edith". Edith is a passion project started by myself and a very close friend of mine and is currently one year into development, with it's demo a very early work in progress. Inspired by OMOCAT's "OMORI", Edith is a top-down RPG loveletter to the aformentioned title, with my primary role in its creation being art direction for both final pieces along with concept artwork and designs (with a secondary but still large focus on story and character development). The images to the right are clickable, and should display a small and relevant caption. The date at which each piece of concept art was made is written in red pen to give an idea as to which are early works and which are more recent.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -103,7 +103,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">Edith - Spritework Examples</span>
                 <p>
-                     To the right are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, however once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these animations should be seen below the screen recording.
+                     To the right or below are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, however once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these animations should be seen below the screen recording.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -138,7 +138,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">(OLD) Edith - Spritework Examples</span>
                 <p>
-                     To the right are some examples of the in-game spritework test animations done for the previously mentioned early unpolished demo currently being worked on for Edith, along with a screen recording containing some of them actually being used. These animations include: breathing, idling, attacking, jumping and crouching motions, as well as taking damage. While they don't look particuarly animated on their own, however once given context with each other, they flow well into one another for the type of gameplay we hope Edith is going to have. Some older attempts at these animations should be seen below the screen recording.
+                     To the right or below are some exaxmples of older animations done previously for Edith's gameplay. The style is competlely different, and the animations themselves are included inside the sheets rather than being more freeform like the ones above. Whilst these are technically smoother, they're also far more difficult to work with and were proving a nightmare to make look good in production, so they were all scrapped and redone in favour of the ones shown above.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -169,11 +169,9 @@
         <div class="absolute -top-32" id="misc" bind:this={projectSectionElements[2]}></div>
         <div class="flex items-center flex-col xl:items-start xl:flex-row gap-16">
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
-                <span class="text-4xl">Misc</span>
+                <span class="text-4xl">Misc.</span>
                 <p>
-                    Edithy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet dui. Sed posuere ex vel augue ornare, non euismod ipsum imperdiet. Maecenas quis felis tempor, fringilla elit sed, eleifend mi. Vivamus quis efficitur nulla. Donec ac molestie lorem, imperdiet interdum ipsum. Nulla vestibulum arcu ut accumsan mattis. Phasellus tristique risus quis augue convallis porttitor. Fusce consectetur non libero et semper. Sed sagittis consectetur orci sed finibus. Suspendisse a interdum risus. Sed aliquam tellus vitae interdum rutrum. Aenean sodales arcu metus, vitae dictum ipsum bibendum vitae. Nulla vel velit laoreet, ultrices justo at, suscipit est. Aliquam volutpat semper lacinia.
-
-                    Etiam mattis leo lacus. Aliquam eget felis ac felis dapibus pharetra. Suspendisse potenti. Cras ultrices diam ut ante convallis placerat sit amet ut tortor. Nulla hendrerit leo eu lectus aliquet venenatis. Phasellus nulla tellus, sagittis vel lobortis eu, egestas et elit. Curabitur pulvinar nisl dui, a interdum lorem placerat sed. Vestibulum sed tincidunt sem. Sed sem arcu, pretium at rutrum sit amet, finibus sit amet lorem. Etiam blandit lobortis nisl. Phasellus purus odio, rhoncus quis nisi a, vulputate egestas est. Proin ornare purus ac accumsan ultricies. Phasellus et cursus risus, sed posuere turpis. 
+                    To the right or below are a few examples of miscellaneous artwork that I've done, some for practise, others for testing new techniques. Whilst there aren't too many examples shown, I think there's enough to give a general overview of my style(s) along with where my strengths and weakness lie when it comes to art. Posing and colouring are two of my main issues when it comes to drawing and are the things I'm currently working on improving, along with anatomy and perspective. 4 of the images on the right are in a sequence showing the improvement in my art from the idea to the execution (if they aren't laid out next to each other, they're the 4 with the orange and purple haired characters). All the images, however, should be clickable in order to enlarge and see their captions.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -181,57 +179,57 @@
                     <Cell col={1} row={1} colSpan={1} rowSpan={8}>
                         <div class="mt-auto">
                             <ViewableImage alt="A scene showing a reflection between two sides of the character Madeline from Celeste's psyche" src="celeste1.png">
-                                Lorem ipsum
+                                The 1st piece of artwork in a sequence of improvement. I wasn't too happy with how my idea for this fanart turned out, so I tried again.
                             </ViewableImage>
                         </div>
                     </Cell>
                     <Cell col={2} row={1} colSpan={2} rowSpan={8}>
                         <ViewableImage alt="A scene showing a reflection between two sides of the character Madeline from Celeste's psyche" src="celeste2.png">
-                            Lorem ipsum
+                            The 2nd piece of artwork in a sequence of improvement. I tried drawing on a larger scale and adding some more framing and using a different brush to colour, however I didn't like how small the scope of the idea had turned out, so I tried again.
                         </ViewableImage>
                     </Cell>
                     <Cell col={4} row={1} colSpan={1} rowSpan={8}>
                         <div class="mt-auto">
                             <ViewableImage alt="Character Madeline from Celeste battling her alter-ego with a golden feather" src="celeste3.png">
-                                Lorem ipsum
+                                The 3rd piece of artwork in a sequence of improvement. This time I completely redid the layout of the drawing to try and give it some nicer visuals, this was done in around 5 hours as part of an art competition.
                             </ViewableImage>
                         </div>
                     </Cell>
                     <Cell col={5} row={1} colSpan={1} rowSpan={8}>
                         <div class="mt-auto">
                             <ViewableImage alt="Character Madeline from Celeste battling her alter-ego with a golden feather" src="celeste4.png">
-                                Lorem ipsum
+                                The 4th piece of artwork in a sequence of improvement. After the art competition, I went back and refined the piece I had made, making it larger and tweaking some layers. All of these drawings were done very close to one another in time, I was suprirsed myself at how much improvemnet I could make.
                             </ViewableImage>
                         </div>
                     </Cell>
                     <Cell col={1} row={9} colSpan={2} rowSpan={8}>
                         <ViewableImage alt="Character Lapis from Steven Universe dressed like the Batter from OFF" src="lapis2.png">
-                            Lorem ipsum
+                            I really struggled with getting the hair to look natural in this pose, as trying to draw the hair from a front angle  was proving difficult to make look natural. Adding some wind to the hair however helped ease the process.
                         </ViewableImage>
                     </Cell>
                     <Cell col={3} row={9} colSpan={3} rowSpan={12}>
                         <ViewableImage alt="Character Lapis from Steven Universe with what appears to be wings elevating her in the air" src="lapis1.png">
-                            Lorem ipsum
+                            The was the first of 3 small fanarts I did as a small practise project. I'm really happy with how this one turned out with the posing of the body and hair. The shading could be much better, however that wasn't my main focus at the time.
                         </ViewableImage>
                     </Cell>
                     <Cell col={1} row={17} colSpan={2} rowSpan={8}>
                         <ViewableImage alt="Character Paraffin from the Terraria Split Mod" src="paraffin.png">
-                            Lorem ipsum
+                            On the left of this image is (for all intensive purposes) the first ever drawing I did on my graphics tablet, which eventually lead to everything else you see on this page and much, much more. To the right is an improved version, though I'm planning on doing another improvement piece.
                         </ViewableImage>
                     </Cell>
                     <Cell col={3} row={21} colSpan={2} rowSpan={8}>
                         <ViewableImage alt="Character Lapis from Steven Universe collecting the rain in her hands as she stands in a puddle with an umbrella protecting her" src="lapis3.png">
-                            Lorem ipsum
+                            Drawing characters from behind is something I'm trying to work on getting better at, and I quite like how this piece turned out. It's also the first piece that I downloaded a custom brush for, in the form of the rain seen coming from the umbrella.
                         </ViewableImage>
                     </Cell>
                     <Cell col={5} row={21} colSpan={1} rowSpan={4}>
                         <ViewableImage alt="A collection of a few poses of the Character Lapis from Steven Universe" src="lapisall.png">
-                            Lorem ipsum
+                            All 3 pieces of fanart done for this small practise project together, I'm happy with the way they turned out even if they are quite flawed. It was nice testing out different and new techniques on each one.
                         </ViewableImage>
                     </Cell>
                     <Cell col={1} row={23} colSpan={2} rowSpan={8}>
                         <ViewableImage alt="Character Perfect Heart from OMORI holding a wine glass in the air" src="perfectheart.png">
-                            Lorem ipsum
+                            This was mainly a colour test done as part of a larger piece of artwork that I had planned which isn't shown here.
                         </ViewableImage>
                     </Cell>
                 </Grid>
