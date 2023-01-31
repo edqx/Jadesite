@@ -12,7 +12,7 @@
 
     $: padding = windowWidth < 640 ? 0.95 : 0.8;
 
-    $: if (smallImageElem && popupImageElem && windowWidth > 0 && windowHeight > 0) {
+    $: if (isOpen && smallImageElem && popupImageElem && windowWidth > 0 && windowHeight > 0) {
         const aspectRatio = smallImageElem.width / smallImageElem.height;
 
         const defaultWidth = windowWidth * padding;
