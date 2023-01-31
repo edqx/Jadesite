@@ -126,7 +126,7 @@
                     <img width={128} alt="pixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/characters/jen/jen_jump_sheet.png.gif">
                 </Grid>
                 <div class="mt-4">
-                    <ViewableImage src="/old_animations/edithdemoexaxmpleold.gif" alt="Demo of game showing animations in action">
+                    <ViewableImage src="/edithdemoexaxmple.gif" alt="Demo of game showing animations in action">
                     </ViewableImage>
                 </div>
             </div>
@@ -159,7 +159,7 @@
                     <img width={128} alt="a higher-resolutionpixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/old_animations/jen_jump_old.gif">
                 </Grid>
                 <div class="mt-4">
-                    <ViewableImage src="/edithdemoexample.gif" alt="Demo of game showing animations in action">
+                    <ViewableImage src="/old_animations/edithdemoexampleold.gif" alt="Demo of game showing animations in action">
                     </ViewableImage>
                 </div>
             </div>
