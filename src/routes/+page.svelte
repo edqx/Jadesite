@@ -126,7 +126,7 @@
                     <img width={128} alt="pixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/characters/jen/jen_jump_sheet.png.gif">
                 </Grid>
                 <div class="mt-4">
-                    <ViewableImage src="/old_animations/edithdemoexaxmpleold.gif" alt="Demo of game showing animations in action">
+                    <ViewableImage src="/edithdemoexample.gif" alt="Demo of game showing animations in action">
                     </ViewableImage>
                 </div>
             </div>
@@ -138,7 +138,7 @@
             <div class="mx-8 sm:mx-0 sm:w-[30rem]">
                 <span class="text-4xl">(OLD) Edith - Spritework Examples</span>
                 <p>
-                     To the right or below are some exaxmples of older animations done previously for Edith's gameplay. The style is competlely different, and the animations themselves are included inside the sheets rather than being more freeform like the ones above. Whilst these are technically smoother, they're also far more difficult to work with and were proving a nightmare to make look good in production, so they were all scrapped and redone in favour of the ones shown above.
+                     To the right or below are some exaxmples of older animations done previously for Edith's gameplay. The style is competely different, and the animations themselves are included inside the sheets rather than being more freeform like the ones above. Whilst these are technically smoother, they're also far more difficult to work with and were proving a nightmare to make look good in production, so they were all scrapped and redone in favour of the ones shown above.
                 </p>
             </div>
             <div class="2xl:w-[42rem] sm:w-[28rem] w-[20rem]">
@@ -159,7 +159,7 @@
                     <img width={128} alt="a higher-resolutionpixel art animation showing OC character Jen jumping" class="image-render-pixel" src="/old_animations/jen_jump_old.gif">
                 </Grid>
                 <div class="mt-4">
-                    <ViewableImage src="/edithdemoexample.gif" alt="Demo of game showing animations in action">
+                    <ViewableImage src="/old_animations/edithdemoexaxmpleold.gif" alt="Demo of game showing animations in action">
                     </ViewableImage>
                 </div>
             </div>
